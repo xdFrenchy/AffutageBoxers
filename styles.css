@@ -1,18 +1,64 @@
-#googleFormContainer {
-    max-width: 640px;
-    margin: 0 auto;
-}
-
-
 body {
     font-family: 'Arial', sans-serif;
     background-color: #363030;
     color: #fff;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    /* Add margin to the body */
+    padding: 20px;
+    /* Add padding to the body */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    /* Add margin below h1 */
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    /* Add margin below h2 */
+}
+
+a {
+    font-size: 24px;
+    color: #b61414;
+    text-decoration: none;
+    margin-bottom: 20px;
+    /* Add margin below the link */
+    display: inline-block;
+    /* Make the link a block element for padding */
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+button {
+    background-color: #b61414;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    /* Add margin below the button */
+}
+
+button:hover {
+    background-color: #8d1212;
+}
+
+#googleFormContainer {
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* Add margin at the top of googleFormContainer */
+    margin-bottom: 20px;
+    /* Add margin at the bottom of googleFormContainer */
 }
 
 footer {
@@ -21,4 +67,6 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: left;
+    margin-top: 20px;
+    /* Add margin at the top of the footer */
 }
